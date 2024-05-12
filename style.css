@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(134, 126, 126, 0.623);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 3px solid gray;
+    width: 300px;
+    height: 550px;
+    border-radius: 45px;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    width: 280px;
+    height: 180px;
+    font-size: 46px;
+    margin-right: 50px;
+}
+
+button {
+    font-size: 18px;
+    margin: 4px;
+    border: none;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    font-weight: bolder;
+    transition: background-color 0.5s ease;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: 40px;
+}
+
+.top-buttons button {
+    background-color: #A8A8A8;
+}
+
+.top-buttons button:hover {
+    background-color: rgba(255, 255, 255, 0.897);
+}
+
+.three-buttons button {
+    background-color: #333333;
+    color: white;
+}
+
+.three-buttons button:hover {
+    background-color: #a8a8a880;
+}
+
+#zero {
+    width: 122px;
+    border-radius: 20px;
+}
+
+.side-buttons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side-buttons button {
+    background-color: orange;
+    color: white;
+}
+
+.side-buttons button:hover {
+    background-color: white;
+    color: orange;
+}
+
+footer a {
+    color: rgb(34, 33, 33);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
